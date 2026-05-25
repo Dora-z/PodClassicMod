@@ -4,7 +4,7 @@ import com.example.podclassic.base.BaseApplication
 
 
 object Values {
-    const val LAUNCHER = false
+    const val LAUNCHER = true
 
     const val RESOLUTION_HIGH = 1440
     const val RESOLUTION_LOW = 720

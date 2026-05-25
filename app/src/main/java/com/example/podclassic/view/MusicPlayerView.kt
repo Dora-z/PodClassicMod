@@ -127,9 +127,17 @@ class MusicPlayerView(context: Context) : FrameLayout(context), ScreenView {
         // 当前播放时间和剩余时间（底部进度条区域）
         currentTime = view.findViewById<androidx.appcompat.widget.AppCompatTextView>(R.id.tv_current_time).apply {
             setTextColor(Colors.text)
+            setSingleLine(true)
+            maxLines = 1
+            includeFontPadding = false
+            setHorizontallyScrolling(true)
         }
         remainingTime = view.findViewById<androidx.appcompat.widget.AppCompatTextView>(R.id.tv_remaining_time).apply {
             setTextColor(Colors.text)
+            setSingleLine(true)
+            maxLines = 1
+            includeFontPadding = false
+            setHorizontallyScrolling(true)
         }
         
         Log.d("MusicPlayerView", "Time views found: index=$index, currentTime=$currentTime, remainingTime=$remainingTime")

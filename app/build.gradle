@@ -10,8 +10,8 @@ android {
         applicationId "com.example.podclassic"
         minSdk 26
         targetSdk 34
-        versionCode 25
-        versionName "1.5"
+        versionCode 41
+        versionName "1.5.16"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

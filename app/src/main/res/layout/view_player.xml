@@ -173,8 +173,13 @@
         <!-- 已播放时间 -->
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tv_current_time"
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="56dp"
+            android:ellipsize="none"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
             android:textColor="@color/text"
             android:textSize="14sp"
             android:gravity="end"
@@ -192,8 +197,13 @@
         <!-- 剩余时间 -->
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tv_remaining_time"
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="56dp"
+            android:ellipsize="none"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
             android:textColor="@color/text"
             android:textSize="14sp"
             android:gravity="start"
